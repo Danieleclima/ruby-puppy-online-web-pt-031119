@@ -7,7 +7,7 @@ class Dog
    end
    
    def self.all
-     @@all each do |dog|
+     @@all.each do |dog|
        puts dog
      end
    end
